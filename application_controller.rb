@@ -1,9 +1,3 @@
-require 'dotenv/load'
-require 'bundler'
-require 'lyricfy'
-require 'rspotify'
-Bundler.require
-
 require_relative 'models/model.rb'
 
 class ApplicationController < Sinatra::Base
